@@ -469,7 +469,7 @@ age = int(input("Enter your age: "))
 salary = float(input("Enter your salary: Rs."))
 cre_score = float(input("Enter your credit score: "))
 
-if not(0 < age < 106 and 0 <= salary < 500000000 and 0 <= cre_score <= 100):
+if not(0 < age < 106 and 0 <= salary < 500000000 and 0 <= cre_score <= 1000):
     print("Invalid input")
 else:
     if not (Min_age <= age <= Max_age):
